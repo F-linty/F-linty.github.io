@@ -1,10 +1,10 @@
-# 使用Node构建命令行工具
 
 > 在用了Vue的脚手架工具以后，发现设计的非常好，简洁直观。因此，起念想要学习一下怎么使用Node来创建一个命令行工具
 
 ## Vue的脚手架工具
 
-<img width="919" height="737" alt="Image" src="https://github.com/user-attachments/assets/4344b291-9600-4486-9556-1609ea02ac7d" />
+<p align="center"><img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/4344b291-9600-4486-9556-1609ea02ac7d" /></p>
+
 
 ## 梳理
 
