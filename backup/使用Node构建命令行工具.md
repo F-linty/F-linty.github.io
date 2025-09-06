@@ -4,7 +4,7 @@
 
 ## Vue的脚手架工具
 
-<p align = "center"><img width="400" height="500" alt="Image" src="https://f-linty.netlify.app/user-attachments/assets/06cead0f-a8d2-425e-a6e4-052faf69e51b" /></p>
+<img width="919" height="737" alt="Image" src="https://github.com/user-attachments/assets/4344b291-9600-4486-9556-1609ea02ac7d" />
 
 ## 梳理
 
