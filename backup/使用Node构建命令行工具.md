@@ -69,215 +69,50 @@
 
 ### 三方库（美化）
 
+#### 字体样式
 
-<table align = "center">
-    <tr>
-    	<th colspan="2" align = "center">字体样式</th>
-    </tr>
-    <tr>
-        <td align = "center">chalk</td>
-        <td align = "center">colorette(小体积)</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">粗体、下划线、背景色</td>
-                </tr>
-				<tr>
-                	<td align = "center">导入</td>
-                    <td align = "center">
-                    	import chalk from "chalk"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/chalk</a></td>
-                </tr>
-            </table>
-        </td>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">chalk的简化版本，粗体、下划线、背景色</td>
-                </tr>
-				<tr>
-                	<td align = "center">最小构建</td>
-                    <td align = "center">
-                    	import { blue, bold, underline } from "colorette"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/colorette</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-<table align = "center">
-    <tr>
-    	<th align = "center">参数解析</th>
-    </tr>
-    <tr>
-        <td align = "center">commander</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">用来处理命令、参数、选项，自动生成帮助信息</td>
-                </tr>
-				<tr>
-                	<td align = "center">导入</td>
-                    <td align = "center">
-                    	import { Command } from "commander"
-						const program = new Command()
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/commander</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **chalk** | 粗体、下划线、背景色 | `import chalk from "chalk"` | [npm](https://www.npmjs.com/package/chalk) |
+| **colorette** | chalk 的简化版，粗体、下划线、背景色 | `import { blue, bold, underline } from "colorette"` | [npm](https://www.npmjs.com/package/colorette) |
 
-<table align = "center">
-    <tr>
-    	<th colspan="2" align = "center">动态效果</th>
-    </tr>
-    <tr>
-        <td align = "center">cli-progress</td>
-        <td align = "center">ora</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">进度条</td>
-                </tr>
-				<tr>
-                	<td align = "center">使用</td>
-                    <td align = "center">
-                    	import { SingleBar, Presets } from "cli-progress"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/cli-progress</a></td>
-                </tr>
-            </table>
-        </td>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">加载动画</td>
-                </tr>
-				<tr>
-                	<td align = "center">使用</td>
-                    <td align = "center">
-                        import ora from 'ora'
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/ora</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+---
 
-<table align = "center">
-    <tr>
-    	<th align = "center">表格</th>
-    </tr>
-    <tr>
-        <td align = "center">cli-table3</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">表格显示数据，让结构更清晰</td>
-                </tr>
-				<tr>
-                	<td align = "center">导入</td>
-                    <td align = "center">
-                    	import Table from "cli-table3"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/cli-table3</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+#### 参数解析
 
-<table align = "center">
-    <tr>
-    	<th align = "center">艺术字</th>
-    </tr>
-    <tr>
-        <td align = "center">figlet</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">打印醒目的标题</td>
-                </tr>
-				<tr>
-                	<td align = "center">导入</td>
-                    <td align = "center">
-                    	import figlet from "figlet"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/figlet</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **commander** | 用来处理命令、参数、选项，自动生成帮助信息 | ```js<br>import { Command } from "commander"<br>const program = new Command()<br>``` | [npm](https://www.npmjs.com/package/commander) |
 
-<table align = "center">
-    <tr>
-    	<th align = "center">交互式输入</th>
-    </tr>
-    <tr>
-        <td align = "center">figlet</td>
-    </tr>
-	<tr>
-        <td align = "center">
-            <table>
-            	<tr>
-                	<td align = "center">简介</td>
-                    <td align = "center">选择菜单、确认、输入框</td>
-                </tr>
-				<tr>
-                	<td align = "center">导入</td>
-                    <td align = "center">
-                    	import inquirer from "inquirer"
-                    </td>
-                </tr>
-                <tr>
-                	<td align = "center">地址</td>
-                    <td align = "center"><a>https://www.npmjs.com/package/inquirer</a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+---
+
+#### 动态效果
+
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **cli-progress** | 进度条 | `import { SingleBar, Presets } from "cli-progress"` | [npm](https://www.npmjs.com/package/cli-progress) |
+| **ora** | 加载动画 | `import ora from "ora"` | [npm](https://www.npmjs.com/package/ora) |
+
+---
+
+#### 表格
+
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **cli-table3** | 表格显示数据，让结构更清晰 | `import Table from "cli-table3"` | [npm](https://www.npmjs.com/package/cli-table3) |
+
+---
+
+#### 艺术字
+
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **figlet** | 打印醒目的标题 | `import figlet from "figlet"` | [npm](https://www.npmjs.com/package/figlet) |
+
+---
+
+#### 交互式输入
+
+| 库 | 简介 | 导入方式 | 地址 |
+|----|------|----------|------|
+| **inquirer** | 选择菜单、确认、输入框 | `import inquirer from "inquirer"` | [npm](https://www.npmjs.com/package/inquirer) |
