@@ -81,7 +81,7 @@
 
 | 库 | 简介 | 导入方式 | 地址 |
 |----|------|----------|------|
-| **commander** | 用来处理命令、参数、选项，自动生成帮助信息 | ```js<br>import { Command } from "commander"<br>const program = new Command()<br>``` | [npm](https://www.npmjs.com/package/commander) |
+| **commander** | 用来处理命令、参数、选项，自动生成帮助信息 | ```js<br>import { Command } from "commander"const program = new Command()``` | [npm](https://www.npmjs.com/package/commander) |
 
 ---
 
