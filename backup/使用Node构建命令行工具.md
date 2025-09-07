@@ -3,8 +3,7 @@
 
 ## Vue的脚手架工具
 
-<p align="center"><img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/4344b291-9600-4486-9556-1609ea02ac7d" /></p>
-
+<p align="center"><img width="500" height="600" alt="Image" src="http://t26ywb2of.hn-bkt.clouddn.com/image/image-20250906182713572.png" /></p>
 
 ## 梳理
 
