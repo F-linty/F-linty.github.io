@@ -1,5 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>F-linty</title><link>https://F-linty.github.io</link><description>理论是行动的先导，思想是时代的灯塔</description><copyright>F-linty</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/221667092?v=4</url><title>avatar</title><link>https://F-linty.github.io</link></image><lastBuildDate>Sun, 07 Sep 2025 12:17:37 +0000</lastBuildDate><managingEditor>F-linty</managingEditor><ttl>60</ttl><webMaster>F-linty</webMaster><item><title>归档</title><link>https://F-linty.github.io/post/gui-dang.html</link><description># 前端
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>F-linty</title><link>https://F-linty.github.io</link><description>理论是行动的先导，思想是时代的灯塔</description><copyright>F-linty</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/221667092?v=4</url><title>avatar</title><link>https://F-linty.github.io</link></image><lastBuildDate>Mon, 08 Sep 2025 12:28:13 +0000</lastBuildDate><managingEditor>F-linty</managingEditor><ttl>60</ttl><webMaster>F-linty</webMaster><item><title>对于2种现代的弹性盒的理解</title><link>https://F-linty.github.io/post/dui-yu-2-zhong-xian-dai-de-dan-xing-he-de-li-jie.html</link><description>
+
+## Flex
+
+### Container(容器)
+
+&gt; 使用**`display:flex`**开启flex弹性盒
+
+​	在文档流中开辟了一块弹性文档流区域，这会改变其中子元素的**布局规则**
+
+* 设置**布局规则**
+
+  |             主轴(X)             |               交叉轴(Y)               |
+  | :-----------------------------: | :-----------------------------------: |
+  |   flex direction（主轴方向）    |  align-items（子项在交叉轴上的对齐）  |
+  | justify-content（剩余空间分布） | align-content（内容区域在交叉轴上的） |
+  |        flex-wrap（换行）        |                                       |
+  |           gap（间隔）           |                                       |
+
+### items(子项)
+
+|          位置          |            比例分配            |
+| :--------------------: | :----------------------------: |
+|     order（顺序）      |     flex grow（放大比例）      |
+| align self（自身对齐） |    flex shrink（缩小比例）     |
+|                        |     flex basis（基础大小）     |
+|                        | flex [ **grow shrink basis** ] |
+
+### 理解
+
+​	弹性盒改变了网页原本的**普通文档流**布局规则，变成了**弹性文档流**布局规则。</description><guid isPermaLink="true">https://F-linty.github.io/post/dui-yu-2-zhong-xian-dai-de-dan-xing-he-de-li-jie.html</guid><pubDate>Mon, 08 Sep 2025 12:27:40 +0000</pubDate></item><item><title>归档</title><link>https://F-linty.github.io/post/gui-dang.html</link><description># 前端
 &lt;div align='center'&gt;
 
 | 浏览器进程模型 | HTML | CSS | JS | Node | VUE
