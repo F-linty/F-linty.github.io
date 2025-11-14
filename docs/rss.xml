@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>F-linty</title><link>https://F-linty.github.io</link><description>理论是行动的先导，思想是时代的灯塔</description><copyright>F-linty</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/221667092?v=4</url><title>avatar</title><link>https://F-linty.github.io</link></image><lastBuildDate>Mon, 08 Sep 2025 12:28:13 +0000</lastBuildDate><managingEditor>F-linty</managingEditor><ttl>60</ttl><webMaster>F-linty</webMaster><item><title>对于2种现代的弹性盒的理解</title><link>https://F-linty.github.io/post/dui-yu-2-zhong-xian-dai-de-dan-xing-he-de-li-jie.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>F-linty</title><link>https://F-linty.github.io</link><description>理论是行动的先导，思想是时代的灯塔</description><copyright>F-linty</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/221667092?v=4</url><title>avatar</title><link>https://F-linty.github.io</link></image><lastBuildDate>Fri, 14 Nov 2025 16:15:51 +0000</lastBuildDate><managingEditor>F-linty</managingEditor><ttl>60</ttl><webMaster>F-linty</webMaster><item><title>对于2种现代的弹性盒的理解</title><link>https://F-linty.github.io/post/dui-yu-2-zhong-xian-dai-de-dan-xing-he-de-li-jie.html</link><description>
 
 ## Flex
 
 ### Container(容器)
 
-&gt; 使用**`display:flex`**开启flex弹性盒
+&gt; 使用**display:flex**开启flex弹性盒
 
 ​	在文档流中开辟了一块弹性文档流区域，这会改变其中子元素的**布局规则**
 
